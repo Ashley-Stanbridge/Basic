@@ -1,0 +1,24 @@
+{
+  "name": "Basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashley-Stanbridge/Basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashley-Stanbridge/Basic/issues"
+  },
+  "homepage": "https://github.com/Ashley-Stanbridge/Basic#readme",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  }
+}
