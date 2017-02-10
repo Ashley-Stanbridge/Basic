@@ -6,19 +6,19 @@ app.use(express.static('public'));
 
 // viewed at h  ttp://localhost:8080
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/routes/index.html'));
 });
 
 app.get('/resume', function(req, res) {
-    res.sendFile(path.join(__dirname + '/resume.html'));
+    res.sendFile(path.join(__dirname + '/routes/resume.html'));
 });
 
 app.get('/about', function(req, res) {
-    res.sendFile(path.join(__dirname + '/about.html'));
+    res.sendFile(path.join(__dirname + '/routes/about.html'));
 });
 
 app.get('/contact', function(req, res) {
-    res.sendFile(path.join(__dirname + '/contact.html'));
+    res.sendFile(path.join(__dirname + '/routes/contact.html'));
 });
 
 
